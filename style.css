@@ -200,7 +200,7 @@ body {
 } 
 
 .hero-cta {
-    margin-top: 30%;
+    margin-top: 20%;
     margin-left: 80px;
     text-align: left;
 }
@@ -213,12 +213,15 @@ body {
     border-radius: 3px;
     background-color: #1c2022;
     color: #2aabe4;
-    padding: 15px;
+    padding: 3rem;
     margin-bottom: 3rem;
+    box-shadow: 3px 3px 8px 3px rgb(13, 9, 37);
+
 }
 
 .hero-subtitle {
     font-size: 2rem;
+    padding-bottom: 1rem;
 }
 
 .hero-text {
@@ -233,6 +236,7 @@ body {
     background: #ffcd24;
     color: #33393d;
     transition: 0.2s ease;
+    box-shadow: 3px 3px 8px 3px rgb(13, 9, 37);
 }
 
 .contact-btn:hover {
@@ -339,11 +343,11 @@ body {
 
 .services-container {
     width: 100%;
+    background: #1c2022;
 }
 
 .services-card-container {
     max-width: 90%;
-    background: #ffffff;
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
     justify-items: center;
@@ -359,28 +363,32 @@ body {
     justify-content: center;
     text-align: center;
     line-height: 1.8;
-    background-color:#ffffff;
+    background-color:#33393d;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px 3px rgb(9, 6, 29);
+
 }
 
 .services-title {
     width: 90%;
     font-size: 2.4rem;
     text-align: left;
-    margin-top: 100px;
+    padding-top: 100px;
+    /* margin-top: 100px; */
     margin-left: auto;
     margin-right: auto;
-    color: #525252;
+    color: #9dc8e4;
     border-bottom: 3px solid ;
     border-radius: 3px;
 }
 
 .services-card h3 {
-    color: #525252;
+    color: #9dc8e4;
     font-size: 1.8rem;
 }
 
 .services-card p {
-    color: #525252;
+    color: #9dc8e4;
     font-size: 1.4rem;
     padding: 1rem;
 }
@@ -396,6 +404,7 @@ body {
         width: 100%;
         padding: 5px;
         line-height: normal;
+        border-radius: 0;
     }
 
     .services-card p {
@@ -466,10 +475,11 @@ body {
 .social-links {
     margin: 10px;
     color: #9dc8e4;
+    box-shadow: 3px 3px 8px 3px rgb(9, 6, 29);
 }
 
 .social-links:hover {
-    color: #fff;
+    color: #ffcd24;
 }
 
 .social-div {
