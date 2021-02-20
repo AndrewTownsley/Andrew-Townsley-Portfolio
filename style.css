@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
 }
 
 body {
@@ -214,7 +215,7 @@ body {
     border-radius: 3px;
     background-color: #1c2022;
     color: #2aabe4;
-    padding: 3rem;
+    padding: 2rem;
     margin-bottom: 3rem;
     box-shadow: 3px 3px 8px 3px rgb(13, 9, 37);
 
@@ -235,7 +236,7 @@ body {
     font-size: 1.8rem;
     padding: 1rem 3rem;
     background: #ffcd24;
-    color: #33393d;
+    color: #1c2022;
     transition: 0.2s ease;
     box-shadow: 3px 3px 8px 3px rgb(13, 9, 37);
 }
@@ -362,18 +363,18 @@ body {
     margin: 6rem;
     padding: 2rem;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     line-height: 1.8;
     background-color:#33393d;
-    border-radius: 20px;
+    border-radius: 5px;
     box-shadow: 3px 3px 8px 3px rgb(9, 6, 29);
 
 }
 
 .services-title {
-    width: 90%;
+    width: 80%;
     font-size: 2.4rem;
-    text-align: left;
+    text-align: center;
     padding-top: 100px;
     /* margin-top: 100px; */
     margin-left: auto;
@@ -385,6 +386,8 @@ body {
 
 .services-card h3 {
     color: #9dc8e4;
+    text-decoration: underline solid rgb(47, 39, 73);
+    text-underline-offset: 7px;
     font-size: 1.8rem;
 }
 
